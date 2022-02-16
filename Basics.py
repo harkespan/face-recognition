@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 import face_recognition
 
-jkw1 = face_recognition.load_image_file('assets/images/datasets/harkespan5.jpg')
+jkw1 = face_recognition.load_image_file('assets/jokowi1.jpeg')
 jkw1 = cv2.cvtColor(jkw1,cv2.COLOR_BGR2RGB)
-jkw2 = face_recognition.load_image_file('assets/images/datasets/harkespan4.jpg')
+jkw2 = face_recognition.load_image_file('assets/jokowi2.jpeg')
 jkw2 = cv2.cvtColor(jkw2,cv2.COLOR_BGR2RGB)
 
 imgLoc = face_recognition.face_locations(jkw1)[0]
